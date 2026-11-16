@@ -48,6 +48,7 @@
 // Author: Wicklo
 // Author: WwLMvmT
 // Author: X200b
+// Author: YShibata
 // Author: YeBoy371
 // Author: Yusuke1109
 // Author: おはぐろ蜻蛉
@@ -81,6 +82,7 @@
 "about-translators-details" = "このアプリは$1においてボランティアにより翻訳されました";
 "about-wikimedia-foundation" = "ウィキメディア財団";
 "about-wikipedia" = "ウィキペディア";
+"about-year-in-review-illustrations-attribution" = "ウィキメディア財団の「年間回顧」、シャロン・パークによるイラストレーション";
 "account-creation-captcha-cannot-see-image" = "画像が表示できませんか? $1";
 "account-creation-captcha-obtaining" = "新しい CAPTCHA を取得しています";
 "account-creation-captcha-request-account" = "アカウントをリクエストする。";
@@ -129,14 +131,19 @@
 "action-unsaved-accessibility-notification" = "記事をリストから削除しました";
 "action-update" = "更新";
 "activity-tab-additional-thoughts" = "他に何かご意見はありますか?";
+"activity-tab-amount-article-views" = "{{PLURAL:$1|$1 ビュー}}";
 "activity-tab-articles-read" = "今月読んだ記事";
 "activity-tab-articles-read-graph-label" = "記事";
 "activity-tab-customize-all-time-impact" = "全期間の影響";
 "activity-tab-customize-editing-insights" = "編集についての洞察";
+"activity-tab-customize-empty-state" = "アクティビティモジュールはオフになっています。 $1でオンにすると、 $2でこのタブの更新情報が表示されます。";
+"activity-tab-customize-footer" = "読書に関するインサイトは設定で選択したアプリの言語に基づいており、編集に関するインサイトはアプリでのあなたの第一言語に限定されます。インサイトは公開されている編集を除きローカルデータを活用します。";
 "activity-tab-customize-last-in-app-donation" = "アプリでの最近の寄付";
+"activity-tab-customize-logout-warning" = "このアクティビティインサイトを有効にするには、ログインする必要があります。";
 "activity-tab-customize-reading-insights" = "閲覧についての洞察";
 "activity-tab-customize-time-spent-reading" = "閲覧に費やした時間";
 "activity-tab-customize-timeline-of-behavior" = "行動のタイムライン";
+"activity-tab-email-fifth-line" = "[スクリーンショットまたはリンク]";
 "activity-tab-empty-title" = "表示するものはありません";
 "activity-tab-impact-all-time-title" = "全期間の影響";
 "activity-tab-impact-best-streak-format" = "{{PLURAL:$1|$1日}}";
@@ -182,7 +189,12 @@
 "app-onboarding-data-privacy-title" = "データとプライバシー";
 "app-onboarding-feed-preference-community-option" = "コミュニティ関連コンテンツ";
 "app-onboarding-feed-preference-in-the-news" = "新着情報";
+"app-onboarding-feed-preference-personalized-option" = "パーソナライズされたコンテンツ";
+"app-onboarding-feed-preference-picture-of-the-day" = "今日の一枚";
+"app-onboarding-feed-preference-title" = "最初に見たいのは？";
+"app-onboarding-intro-body" = "ウィキペディアは、6500万記事を有するフリーのオンライン百科事典であり、300以上の言語でボランティアのコミュニティによって共同で執筆・維持されています。";
 "app-onboarding-intro-learn-more" = "ウィキペディアについての詳細";
+"app-onboarding-languages-add-edit" = "言語を追加または編集";
 "app-store-keywords" = "ウィキペディア、参考資料、ウィキ、百科事典、情報、知識、リサーチ、情報、発見、学習";
 "app-store-release-notes" = "探索フィードが読みやすくなり、細かなカスタマイズもできるようになりました。日本語化、パフォーマンスの向上とバグ修正を実施しました。";
 "app-store-short-description" = "ウィキペディアアプリをダウンロードして、お近くのスポットを探したり、オフラインで読む記事を同期したり、記事の読み方をカスタマイズしたりしてみましょう。";
@@ -217,6 +229,7 @@
 "article-tabs-open-new-tab" = "新しいタブで開く";
 "article-talk-page" = "記事のトークページ";
 "article-toolbar-reading-themes-controls-toolbar-item" = "テーマのコントロールを読み込む";
+"article-view-controller-editing-temp-account-created-title" = "仮アカウントが作成されました";
 "back-button-accessibility-label" = "戻る";
 "back-button-popover-title" = "タップして戻る";
 "beta-badge-label" = "ベータ版";
@@ -357,6 +370,7 @@
 "discover-settings-source-saved" = "保存済み記事に基づいて";
 "discover-settings-source-title" = "発見を構築する方法";
 "discover-settings-turn-off-alert-confirm" = "オフにする";
+"discover-settings-turn-off-alert-title" = "発見をオフにしますか？";
 "discover-settings-your-list-header" = "あなたのリスト";
 "discover-setup-source-history" = "閲覧履歴に基づいて選んでください";
 "discover-setup-source-interests" = "自分の興味に基づいて選ばせてください";
@@ -480,7 +494,7 @@
 "evergreen-account-creation-saved-body" = "ウィキペディアアカウントにログインすると、保存済みの記事を複数のデバイスで同期できます。";
 "evergreen-account-creation-saved-title" = "保存記事を同期";
 "evergreen-account-creation-saved-title-count" = "{{PLURAL:$1|保存記事$1件}}を同期";
-"evergreen-account-creation-title" = "アカウント作成で、ウィキペディアがもっと便利に";
+"evergreen-account-creation-title" = "ウィキペディアはアカウントを使うのが最善です";
 "evergreen-account-creation-year-in-review-body" = "年に一度、これまでの閲覧記録を振り返り、一年のまとめとしてお届けします。シェアもできます。";
 "evergreen-account-creation-year-in-review-title" = "閲覧記録を一年のまとめで確認";
 "evergreen-account-creation-year-in-review-title-count" = "{{PLURAL:$1|$1日分}}の閲覧記録を一年のまとめで確認";
@@ -629,6 +643,7 @@
 "home-feed-for-you-based-on-interests-title" = "興味に基づいて";
 "home-feed-for-you-settings-title" = "モジュール";
 "home-feed-interests-deselect-all" = "すべての選択を解除";
+"home-feed-interests-search-placeholder" = "記事を検索";
 "home-feed-interests-settings-title" = "あなたの興味";
 "home-feed-modules-featured-article-subtitle" = "秀逸な記事は、毎日編集者によって選ばれるウィキペディアの最高品質の記事の一部です";
 "home-feed-modules-featured-article-title" = "秀逸な記事";
@@ -645,9 +660,13 @@
 "home-feed-settings-community-section-title" = "コミュニティ";
 "home-feed-settings-for-you-section-title" = "あなた向け";
 "home-feed-settings-modules-title" = "モジュール";
+"home-feed-whats-driving-languages-subtitle" = "優先言語を編集する";
 "home-feed-whats-driving-languages-title" = "言語";
 "home-feed-whats-driving-reading-history-subtitle" = "最近閲覧した記事を探索";
 "home-feed-whats-driving-reading-history-title" = "閲覧履歴";
+"home-feed-whats-driving-settings-header" = "これらのトピックおよび記事は「あなた向け」フィードに現れるものを形成します。不要になったものを除去したり、新しい興味を追加してください。";
+"home-feed-whats-driving-settings-title" = "あなたのフィードの原動力";
+"home-feed-whats-driving-your-interests-subtitle" = "あなたの興味のあるトピックを編集してください";
 "home-feed-whats-driving-your-interests-title" = "あなたの興味";
 "home-for-you-next-module-accessibility-action" = "次のモジュール";
 "home-for-you-previous-module-accessibility-action" = "前のモジュール";
@@ -667,9 +686,19 @@
 "icon-shortcut-search-title" = "ウィキペディア内を検索";
 "image-gallery-unknown-owner" = "作者不明。";
 "image-rec-add-image-title" = "この画像を追加しますか?";
+"image-rec-onboarding-title" = "記事に画像を追加する";
+"image-rec-survey-instructions-1" = "あなたの回答によって将来の提案が改善されます。";
+"image-rec-survey-instructions-2" = "ひとつまたは複数のオプションを選択してください";
+"image-rec-survey-option-1" = "関連する画像ではありません";
+"image-rec-survey-option-2" = "判断するのに十分な情報がありません";
+"image-rec-survey-option-3" = "不快な画像です";
+"image-rec-survey-option-4" = "画像の品質が低いです";
+"image-rec-survey-option-5" = "この主題について知りません";
 "image-rec-survey-option-6" = "その他";
 "image-rec-survey-submit-button" = "送信";
 "image-rec-survey-title" = "理由";
+"image-rec-title" = "画像を追加";
+"image-rec-view-article" = "記事を閲覧";
 "image-recs-no-title" = "いいえ";
 "image-recs-not-sure-title" = "わからない";
 "image-recs-yes-title" = "はい";
@@ -708,6 +737,9 @@
 "insert-media-image-type-settings-title" = "画像の種類";
 "insert-media-media-settings-title" = "メディア設定";
 "insert-media-title" = "メディアを挿入";
+"ip-account-cta-bottom" = "ログインしないで続ける";
+"ip-account-cta-top" = "ログインまたはアカウントを作成";
+"ip-account-warning-title" = "ログインしていません";
 "kurdish-variants-alert-title" = "クルド語言語変種サポートの更新";
 "languages-settings-title" = "言語";
 "languages-title" = "言語を変更";
@@ -744,6 +776,7 @@
 "nearby-distance-label-km" = "$1 km";
 "nearby-distance-label-meters" = "{{PLURAL:$1|$1 m}}";
 "nearby-distance-label-miles" = "$1 マイル";
+"new-explore-feed-preferences-customize-explore-feed" = "コミュニティフィードをカスタマイズ";
 "new-password-instructions" = "一時的なパスワードでログインしています。ログインを完了するには、新しいパスワードをここで設定してください:";
 "new-password-title" = "パスワードを設定する";
 "new-tab" = "新しいタブ";
@@ -867,6 +900,14 @@
 "on-this-day-no-internet-error" = "利用できるデータがありません";
 "on-this-day-sub-title-for-date-from-language-wikipedia" = "$2版ウィキペディアより$1の記事";
 "on-this-day-title" = "今日は何の日";
+"one-time-onboarding-customize-button" = "自分のフィードをカスタマイズ";
+"one-time-onboarding-feature-control-body" = "すべてのお勧めはなぜ表示されているのか示されます。設定でいつでも個人設定を更新できます。";
+"one-time-onboarding-feature-control-title" = "制御を保つ";
+"one-time-onboarding-feature-feed-body" = "あなた向けであなたの興味にパーソナライズされた記事を発見するか、コミュニティでウィキペディアの最高の編集コンテンツを探索します。";
+"one-time-onboarding-feature-feed-title" = "あなたのフィード、2つの方法";
+"one-time-onboarding-feature-languages-body" = "複数言語で閲覧しますか？それぞれに独自の体験を得られます。新しいフィードに切り替える準備ができています。";
+"one-time-onboarding-feature-languages-title" = "すべての言語、完全なパーソナライズ";
+"one-time-onboarding-feature-name-body" = "探索フィードはホームになり、以前と同じ場所にあります。";
 "one-time-onboarding-feature-name-title" = "新しい名前";
 "one-time-onboarding-title" = "探索は新しい外観のホームになりました";
 "open-article" = "記事を開く";
@@ -1323,6 +1364,8 @@
 "welcome-explore-continue-button" = "始める";
 "welcome-explore-tell-me-more-done-button" = "わかりました";
 "welcome-languages-add-button" = "言語を追加";
+"which-came-first-average-score-label" = "平均スコア";
+"which-came-first-best-streak-label" = "最高連続記録";
 "which-came-first-log-in-button" = "ログイン";
 "which-came-first-share-score-button" = "スコアを共有";
 "which-came-first-share-topics-title" = "含まれるトピック:";
@@ -1396,6 +1439,7 @@
 "year-in-review-2026-biggest-reading-day-title" = "閲覧が最大の日:";
 "year-in-review-2026-collective-articles-subtitle" = "ウィキペディアは人間による構築を継続します—世界中のボランティアが信頼できる情報源を利用して、あらゆるコンテンツを作成および収集します。";
 "year-in-review-2026-collective-articles-title" = "ウィキペディアの記事数:";
+"year-in-review-2026-collective-card-button-title" = "今すぐ探索";
 "year-in-review-2026-collective-card-title" = "私たちの一年の振り返り";
 "year-in-review-2026-collective-editors-subtitle" = "ウィキメディアプロジェクトはすべてボランティアによって作られていることを知っていますか？編集者は新しい記事を投稿し、現在の記事を改善します。";
 "year-in-review-2026-collective-editors-title" = "ボランティア編集者数:";
@@ -1413,6 +1457,7 @@
 "year-in-review-2026-favorite-time-empty-subtitle" = "ウィキペディアのページを探索すると決めている日または時間は設定されていせん。";
 "year-in-review-2026-favorite-time-empty-title" = "あなたは基本的にいつでも閲覧します";
 "year-in-review-2026-favorite-time-title" = "探索するのが好きな時間:";
+"year-in-review-2026-feedback-email-subject" = "一年の振り返りのフィードバック";
 "year-in-review-2026-highlights-articles-read" = "読まれた記事の数:";
 "year-in-review-2026-highlights-created-with" = "ウィキペディアアプリで作成";
 "year-in-review-2026-highlights-minutes-read" = "総閲覧分数:";
@@ -1435,6 +1480,8 @@
 "year-in-review-2026-you-matter-subtitle" = "ウィキペディアが発展し続けられるように貢献してくださる、あなたのような実在の人々のおかげでウィキペディアは存在します。ウィキペディアがあなたにとって価値のあるものならば、寄付あるいは編集によって支援することをご検討ください。";
 "year-in-review-button-title" = "一年の振り返り";
 "year-in-review-feature-announcement-title-personalized" = "ウィキペディアでの一年を振り返って見てみましょう";
+"year-in-review-feature-explore-body-v3" = "あなたがウィキペディアアプリで読んだり編集したりした記事に関する洞察を確認します。";
+"year-in-review-feature-explore-footer-v3" = "あなたの閲覧履歴は保護されています。閲覧についての洞察は、あなたのデバイスにローカルに保存されたデータを使って計算されます。";
 "year-in-review-highlights-share-logo-caption" = "ウィキペディアロゴ";
 "yesterday-title" = "昨日";
 "zero-edits-to-articles" = "最近の記事への編集は0件です";
