@@ -1,0 +1,1137 @@
+{
+  "version": 1,
+  "source_sha256": "8f01b0e6065a4dee70a957b0317478ea7141f6702dfb4f218484227293a899a1",
+  "generated_at": "2026-11-18T07:47:55Z",
+  "screens": [
+    {
+      "name": "Reading appearance themes",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "chrome"
+          },
+          {
+            "type": "navBar",
+            "title": "Reading preferences",
+            "leading": [
+              {
+                "type": "icon",
+                "name": "sf:chevron.left",
+                "size": 18,
+                "color": "primary"
+              }
+            ],
+            "trailing": [],
+            "height": 44,
+            "background": "chrome",
+            "foreground": "on-surface"
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "gap": 0,
+            "padding": {
+              "top": 20,
+              "right": 16,
+              "bottom": 24,
+              "left": 16
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "READING THEMES",
+                "typeRole": "footnote",
+                "color": "on-surface-secondary"
+              },
+              {
+                "type": "spacer",
+                "size": 8
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 12,
+                "fill": "surface",
+                "children": [
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "column",
+                        "gap": 3,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Default",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Matches system theme",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "icon",
+                        "name": "sf:checkmark",
+                        "size": 18,
+                        "color": "primary"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Light",
+                        "typeRole": "body",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "box",
+                        "width": 24,
+                        "height": 24,
+                        "radius": 12,
+                        "fill": "surface",
+                        "border": {
+                          "color": "outline",
+                          "width": 1
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Sepia",
+                        "typeRole": "body",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "box",
+                        "width": 24,
+                        "height": 24,
+                        "radius": 12,
+                        "fill": "surface-subtle",
+                        "border": {
+                          "color": "outline",
+                          "width": 1
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Dark",
+                        "typeRole": "body",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "box",
+                        "width": 24,
+                        "height": 24,
+                        "radius": 12,
+                        "fill": "icon-background"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Black",
+                        "typeRole": "body",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "box",
+                        "width": 24,
+                        "height": 24,
+                        "radius": 12,
+                        "fill": "on-surface"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "size": 24
+              },
+              {
+                "type": "text",
+                "text": "THEME OPTIONS",
+                "typeRole": "footnote",
+                "color": "on-surface-secondary"
+              },
+              {
+                "type": "spacer",
+                "size": 8
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 12,
+                "fill": "surface",
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "row",
+                        "gap": 12,
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "box",
+                            "width": 32,
+                            "height": 32,
+                            "radius": 8,
+                            "fill": "icon-background",
+                            "align": "center",
+                            "children": [
+                              {
+                                "type": "icon",
+                                "name": "sf:photo",
+                                "size": 17,
+                                "color": "surface"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "text",
+                            "text": "Dim images",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "box",
+                        "width": 51,
+                        "height": 31,
+                        "radius": 16,
+                        "fill": "outline",
+                        "padding": 2,
+                        "align": "start",
+                        "children": [
+                          {
+                            "type": "box",
+                            "width": 27,
+                            "height": 27,
+                            "radius": 14,
+                            "fill": "surface"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "Decrease image opacity on dark and black themes.",
+                "typeRole": "footnote",
+                "color": "on-surface-secondary"
+              }
+            ]
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    },
+    {
+      "name": "For You settings",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "chrome"
+          },
+          {
+            "type": "navBar",
+            "title": "For You",
+            "leading": [
+              {
+                "type": "icon",
+                "name": "sf:chevron.left",
+                "size": 18,
+                "color": "primary"
+              }
+            ],
+            "trailing": [],
+            "height": 44,
+            "background": "chrome",
+            "foreground": "on-surface"
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "gap": 0,
+            "padding": {
+              "top": 20,
+              "right": 16,
+              "bottom": 24,
+              "left": 16
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "PERSONALIZE YOUR FEED",
+                "typeRole": "footnote",
+                "color": "on-surface-secondary"
+              },
+              {
+                "type": "spacer",
+                "size": 8
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 12,
+                "fill": "chrome",
+                "children": [
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "gap": 12,
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "box",
+                        "width": 32,
+                        "height": 32,
+                        "radius": 8,
+                        "fill": "icon-background",
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "sf:slider.horizontal.3",
+                            "size": 17,
+                            "color": "surface"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "column",
+                        "width": "fill",
+                        "gap": 3,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "What’s driving your feed",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Interests, languages, and reading activity",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary",
+                            "maxLines": 1
+                          }
+                        ]
+                      },
+                      {
+                        "type": "icon",
+                        "name": "sf:chevron.right",
+                        "size": 14,
+                        "color": "icon"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "gap": 12,
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "box",
+                        "width": 32,
+                        "height": 32,
+                        "radius": 8,
+                        "fill": "tag-background",
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "sf:heart",
+                            "size": 17,
+                            "color": "primary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "Your interests",
+                        "typeRole": "body",
+                        "color": "on-surface"
+                      },
+                      {
+                        "type": "spacer",
+                        "size": 1
+                      },
+                      {
+                        "type": "icon",
+                        "name": "sf:chevron.right",
+                        "size": 14,
+                        "color": "icon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "size": 24
+              },
+              {
+                "type": "text",
+                "text": "CONTENT",
+                "typeRole": "footnote",
+                "color": "on-surface-secondary"
+              },
+              {
+                "type": "spacer",
+                "size": 8
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 12,
+                "fill": "chrome",
+                "children": [
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "column",
+                        "gap": 3,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Featured articles",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Recommended articles from Wikipedia",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "box",
+                        "width": 51,
+                        "height": 31,
+                        "radius": 16,
+                        "fill": "primary",
+                        "padding": 2,
+                        "align": "end",
+                        "children": [
+                          {
+                            "type": "box",
+                            "width": 27,
+                            "height": 27,
+                            "radius": 14,
+                            "fill": "on-primary"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "column",
+                        "gap": 3,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Top read",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Popular articles in your languages",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "box",
+                        "width": 51,
+                        "height": 31,
+                        "radius": 16,
+                        "fill": "primary",
+                        "padding": 2,
+                        "align": "end",
+                        "children": [
+                          {
+                            "type": "box",
+                            "width": 27,
+                            "height": 27,
+                            "radius": 14,
+                            "fill": "on-primary"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "divider",
+                    "color": "outline-subtle",
+                    "thickness": 1
+                  },
+                  {
+                    "type": "row",
+                    "width": "fill",
+                    "padding": 16,
+                    "align": "center",
+                    "distribute": "spaceBetween",
+                    "children": [
+                      {
+                        "type": "column",
+                        "gap": 3,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Because you read",
+                            "typeRole": "body",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "Suggestions based on recent reading",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "box",
+                        "width": 51,
+                        "height": 31,
+                        "radius": 16,
+                        "fill": "outline",
+                        "padding": 2,
+                        "align": "start",
+                        "children": [
+                          {
+                            "type": "box",
+                            "width": 27,
+                            "height": 27,
+                            "radius": 14,
+                            "fill": "surface"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Article row",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "chrome"
+          },
+          {
+            "type": "navBar",
+            "title": "History",
+            "leading": [],
+            "trailing": [
+              {
+                "type": "icon",
+                "name": "sf:ellipsis.circle",
+                "size": 22,
+                "color": "primary"
+              }
+            ],
+            "height": 44,
+            "background": "chrome",
+            "foreground": "on-surface"
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "padding": {
+              "top": 8,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "children": [
+              {
+                "type": "row",
+                "width": "fill",
+                "padding": {
+                  "top": 12,
+                  "right": 0,
+                  "bottom": 12,
+                  "left": 0
+                },
+                "gap": 12,
+                "align": "start",
+                "children": [
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "James Webb Space Telescope",
+                        "typeRole": "callout",
+                        "color": "on-surface",
+                        "maxLines": 2
+                      },
+                      {
+                        "type": "text",
+                        "text": "Space telescope launched in 2021",
+                        "typeRole": "subheadline",
+                        "color": "on-surface-secondary",
+                        "maxLines": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "width": 40,
+                    "height": 40,
+                    "radius": 4
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline-subtle",
+                "thickness": 1
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "padding": {
+                  "top": 12,
+                  "right": 0,
+                  "bottom": 12,
+                  "left": 0
+                },
+                "gap": 12,
+                "align": "start",
+                "children": [
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Mediterranean Sea",
+                        "typeRole": "callout",
+                        "color": "on-surface",
+                        "maxLines": 2
+                      },
+                      {
+                        "type": "text",
+                        "text": "Sea connected to the Atlantic Ocean",
+                        "typeRole": "subheadline",
+                        "color": "on-surface-secondary",
+                        "maxLines": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "width": 40,
+                    "height": 40,
+                    "radius": 4
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline-subtle",
+                "thickness": 1
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "padding": {
+                  "top": 12,
+                  "right": 0,
+                  "bottom": 12,
+                  "left": 0
+                },
+                "gap": 12,
+                "align": "start",
+                "children": [
+                  {
+                    "type": "icon",
+                    "name": "sf:bookmark.fill",
+                    "size": 20,
+                    "color": "on-surface-secondary"
+                  },
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "History of photography",
+                        "typeRole": "callout",
+                        "color": "on-surface",
+                        "maxLines": 2
+                      },
+                      {
+                        "type": "text",
+                        "text": "Development of photographic technology and art",
+                        "typeRole": "subheadline",
+                        "color": "on-surface-secondary",
+                        "maxLines": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "width": 40,
+                    "height": 40,
+                    "radius": 4
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline-subtle",
+                "thickness": 1
+              },
+              {
+                "type": "row",
+                "width": "fill",
+                "padding": {
+                  "top": 12,
+                  "right": 0,
+                  "bottom": 12,
+                  "left": 0
+                },
+                "gap": 12,
+                "align": "start",
+                "children": [
+                  {
+                    "type": "column",
+                    "width": "fill",
+                    "gap": 4,
+                    "children": [
+                      {
+                        "type": "text",
+                        "text": "Ada Lovelace",
+                        "typeRole": "callout",
+                        "color": "on-surface",
+                        "maxLines": 2
+                      },
+                      {
+                        "type": "text",
+                        "text": "English mathematician and writer",
+                        "typeRole": "subheadline",
+                        "color": "on-surface-secondary",
+                        "maxLines": 1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "image",
+                    "width": 40,
+                    "height": 40,
+                    "radius": 4
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "color": "outline-subtle",
+                "thickness": 1
+              }
+            ]
+          },
+          {
+            "type": "tabBar",
+            "items": [
+              {
+                "icon": "sf:house",
+                "label": "Explore",
+                "selected": false
+              },
+              {
+                "icon": "sf:magnifyingglass",
+                "label": "Search",
+                "selected": false
+              },
+              {
+                "icon": "sf:bookmark",
+                "label": "Saved",
+                "selected": false
+              },
+              {
+                "icon": "sf:clock",
+                "label": "History",
+                "selected": true
+              },
+              {
+                "icon": "sf:gearshape",
+                "label": "Settings",
+                "selected": false
+              }
+            ],
+            "height": 50,
+            "background": "chrome",
+            "selectedColor": "primary",
+            "unselectedColor": "on-surface-secondary",
+            "indicator": {
+              "thickness": 2,
+              "radius": 1,
+              "inset": 12
+            },
+            "style": "both"
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Toast card",
+      "root": {
+        "type": "column",
+        "width": "fill",
+        "height": "fill",
+        "children": [
+          {
+            "type": "statusBar",
+            "color": "on-surface",
+            "background": "chrome"
+          },
+          {
+            "type": "navBar",
+            "title": "Saved",
+            "leading": [],
+            "trailing": [
+              {
+                "type": "icon",
+                "name": "sf:ellipsis.circle",
+                "size": 22,
+                "color": "primary"
+              }
+            ],
+            "height": 44,
+            "background": "chrome",
+            "foreground": "on-surface"
+          },
+          {
+            "type": "column",
+            "width": "fill",
+            "height": "fill",
+            "padding": {
+              "top": 16,
+              "right": 16,
+              "bottom": 16,
+              "left": 16
+            },
+            "children": [
+              {
+                "type": "text",
+                "text": "Reading lists",
+                "typeRole": "large-title",
+                "color": "on-surface"
+              },
+              {
+                "type": "spacer",
+                "size": 20
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 12,
+                "fill": "surface",
+                "border": {
+                  "color": "outline-subtle",
+                  "width": 1
+                },
+                "padding": 16,
+                "children": [
+                  {
+                    "type": "row",
+                    "gap": 12,
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "box",
+                        "width": 44,
+                        "height": 44,
+                        "radius": 8,
+                        "fill": "tag-background",
+                        "align": "center",
+                        "children": [
+                          {
+                            "type": "icon",
+                            "name": "sf:bookmark.fill",
+                            "size": 22,
+                            "color": "primary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "column",
+                        "width": "fill",
+                        "gap": 4,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "Saved pages",
+                            "typeRole": "headline-semibold",
+                            "color": "on-surface"
+                          },
+                          {
+                            "type": "text",
+                            "text": "18 articles",
+                            "typeRole": "subheadline",
+                            "color": "on-surface-secondary"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "icon",
+                        "name": "sf:chevron.right",
+                        "size": 14,
+                        "color": "icon"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "spacer",
+                "size": 1
+              },
+              {
+                "type": "box",
+                "width": "fill",
+                "radius": 24,
+                "fill": "surface-popover",
+                "border": {
+                  "color": "outline-subtle",
+                  "width": 1
+                },
+                "padding": {
+                  "top": 18,
+                  "right": 20,
+                  "bottom": 18,
+                  "left": 20
+                },
+                "children": [
+                  {
+                    "type": "row",
+                    "gap": 16,
+                    "align": "center",
+                    "children": [
+                      {
+                        "type": "image",
+                        "width": 45,
+                        "height": 45,
+                        "radius": 8
+                      },
+                      {
+                        "type": "column",
+                        "width": "fill",
+                        "gap": 6,
+                        "children": [
+                          {
+                            "type": "text",
+                            "text": "James Webb Space Telescope saved",
+                            "typeRole": "subheadline",
+                            "color": "on-surface",
+                            "maxLines": 3
+                          },
+                          {
+                            "type": "text",
+                            "text": "Available in Saved pages",
+                            "typeRole": "footnote",
+                            "color": "on-surface-secondary",
+                            "maxLines": 2
+                          },
+                          {
+                            "type": "text",
+                            "text": "View list",
+                            "typeRole": "subheadline-semibold",
+                            "color": "primary"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tabBar",
+            "items": [
+              {
+                "icon": "sf:house",
+                "label": "Explore",
+                "selected": false
+              },
+              {
+                "icon": "sf:magnifyingglass",
+                "label": "Search",
+                "selected": false
+              },
+              {
+                "icon": "sf:bookmark.fill",
+                "label": "Saved",
+                "selected": true
+              },
+              {
+                "icon": "sf:clock",
+                "label": "History",
+                "selected": false
+              },
+              {
+                "icon": "sf:gearshape",
+                "label": "Settings",
+                "selected": false
+              }
+            ],
+            "height": 50,
+            "background": "chrome",
+            "selectedColor": "primary",
+            "unselectedColor": "on-surface-secondary",
+            "indicator": {
+              "thickness": 2,
+              "radius": 1,
+              "inset": 12
+            },
+            "style": "both"
+          },
+          {
+            "type": "gestureBar",
+            "color": "on-surface"
+          }
+        ]
+      }
+    }
+  ]
+}
