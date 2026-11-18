@@ -608,10 +608,8 @@ x-stag:
         decided_on: 2026-11-18
         stag_guess: likely_accidental
   generated_from:
-    at: 2026-11-18T06:38:12Z
+    at: 2026-11-18T11:23:34Z
     inputs:
-      - path: WMFComponents/Sources/WMFComponents/Style/WMFColor.swift
-        sha256: 08ddd633658734b5475bf111f60814719b52c059def6fbed75e2cede4163cad1
       - path: WMFComponents/Sources/WMFComponents/Style/WMFTheme.swift
         sha256: 618af322b96a0651bd3a49889fd75486ce4e9d95278c873591ab43a250fe2aec
       - path: WMFComponents/Sources/WMFComponents/Style/WMFFont.swift
@@ -620,6 +618,8 @@ x-stag:
         sha256: e1faeeeed271d79fa96ce4b0bcd4c8aa21e52829c2f718be68f1036e305c9b62
       - path: WMFComponents/Sources/WMFComponents/Style/WMFCornerRadius.swift
         sha256: c3bd7da602a4c9a5227c810366f28100775dd72d45e8c191c01bd74a0caf56f0
+      - path: WMFComponents/Sources/WMFComponents/Style/WMFColor.swift
+        sha256: 08ddd633658734b5475bf111f60814719b52c059def6fbed75e2cede4163cad1
       - path: WMFComponents/Sources/WMFComponents/Environment/WMFAppEnvironment.swift
         sha256: 3bab0eb065500ad073bb4ffe3880b7aa321847b93777da2082b2d4913822b1ef
       - path: WMFComponents/Sources/WMFComponents/Components/Shared/Buttons/WMFLargeButton.swift
